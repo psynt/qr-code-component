@@ -1,0 +1,61 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: none;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    background-color: cornsilk;
+    align-items: center;
+}
+
+main {
+    /* outline: auto; */
+    margin: auto auto;
+    align-items: center;
+}
+
+.card {
+    margin: auto auto;
+    background-color: white;
+    width: 220px;
+    padding: 10px;
+    /* outline-offset: 5px; */
+    container-type: inline-size;
+    /* outline: auto; */
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.card-text { 
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-subtext {
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    color: grey;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
