@@ -1,3 +1,11 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(212, 45%, 89%);
+    --greyish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -9,8 +17,9 @@
 }
 
 body {
-    font-family: Ubuntu, "times new roman", times, roman, serif;
-    background-color: cornsilk;
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    background-color: var(--light-grey);
     align-items: center;
 }
 
@@ -21,9 +30,9 @@ main {
 }
 
 .card {
-    margin: auto auto;
+    margin: auto;
     background-color: white;
-    width: 220px;
+    width: 230px;
     padding: 10px;
     /* outline-offset: 5px; */
     container-type: inline-size;
@@ -31,7 +40,7 @@ main {
     display: flex;
     gap: 1rem;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 15px;
     padding-bottom: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
@@ -43,18 +52,19 @@ main {
 
 .card-text { 
     font-size: large;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
 }
 
 .card-subtext {
     font-size: small;
-    font-weight: lighter;
+    font-weight: 400;
     text-align: center;
     color: grey;
 }
 
 img {
+    margin: auto;
     width: 220px;
     height: 220px;
     border-radius: 10px;
